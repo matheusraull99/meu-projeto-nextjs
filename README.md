@@ -1,14 +1,20 @@
-# Curso de Next.js - Meu Aprendizado
+# 🚀 Curso de Next.js - Jornada de Aprendizado
 
-Repositório dedicado aos estudos de Next.js, organizado por módulos de aula.
+Repositório dedicado ao estudo aprofundado de Next.js, com foco em boas práticas e organização profissional.
 
-## ⚙️ Configurações do Projeto
-Este projeto já conta com padrões de desenvolvimento profissionais:
-* [cite_start]**Padronização**: Arquivo `.editorconfig` configurado para manter o código limpo.
-* [cite_start]**Segurança e Limpeza**: Arquivo `.gitignore` robusto que evita o envio de dependências pesadas e arquivos de ambiente (.env).
+## 🛠️ Configurações Técnicas e Padrões
+Este projeto utiliza padrões rigorosos de desenvolvimento para garantir consistência:
 
-## 📂 Estrutura
-* `aula01/a1.3`: Introdução ao framework.
-* `aula02`: Desenvolvimento de componentes.
-* `aula03`: Roteamento e páginas.
-* `aula04`: Finalização do módulo.
+* **Padronização de Código**: Através do `.editorconfig`, garantimos indentação de 2 espaços, codificação UTF-8 e a inserção automática de uma linha final em branco nos arquivos.
+* **Gestão de Dependências e Segurança**: O arquivo `.gitignore` protege o repositório, impedindo o envio de pastas pesadas como `node_modules/`, logs de erro (`*.log`) e arquivos de cache como `.eslintcache`.
+* **Proteção de Dados**: Arquivos de variáveis de ambiente (`.env`) e caches de builds (`.next`, `out`, `.nuxt`) são ignorados para evitar exposição de chaves e conflitos de versão.
+
+## 📂 Estrutura das Aulas
+* **Aula 01**: Introdução ao Framework e roteamento inicial.
+* **Aula 02**: Criação de componentes e estilização.
+* **Aula 03**: Roteamento dinâmico e consumo de APIs.
+* **Aula 04**: Finalização de módulos e estruturação de páginas.
+
+## 🚀 Como rodar localmente
+1. Instale as dependências: `npm install`
+2. Inicie o servidor: `npm run dev`
